@@ -146,7 +146,7 @@ X_train_dtm = vect.transform(X_train)
 X_test_dtm = vect.transform(X_test)
 
 
-st.title("Bag of Popcorn!")
+st.title("Machines and Sentiments")
 
 st.write("""
 # Let's decide what to watch!!! Or a take on what you've already watched!
