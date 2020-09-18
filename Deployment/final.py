@@ -176,12 +176,12 @@ X_dtm = trainingVector.transform(X)
 NB_complete = MultinomialNB()
 NB_complete.fit(X_dtm, y)
 
-options=st.sidebar.selectbox("Select Choice",("review","recommend","Guidance from ROBO"))
+options=st.sidebar.selectbox("Select Choice",("Drop a Review","I want Recommendations","Let's talk to ROBO!"))
 st.write(options)
 
-if options=="review":
-    st.write('Test a custom review message:')
-    x=st.text_input('Enter review to be analysed:',key=1)
+if options=="Drop a Review":
+    st.write("So let's consider the most recent movie you watched. ")
+    x=st.text_input('Alright! Type in your thoughts here:',key=1)
     tick=st.button("SUBMIT")
     if tick:   
         test=[]
@@ -190,11 +190,11 @@ if options=="review":
         predLabel = NB_complete.predict(test_dtm)
         tags = ['Negative','Positive']
         st.write("prediction:",tags[predLabel[0]])
-elif options=="recommend":
+elif options=="I want Recommendations":
     ans = True
     while (ans):
         #st.write("ROBO: Please refer to Imdb for the exact movie Name.")
-        user_res = st.text_input("Enter the movie which you have in mind."," ")
+        user_res = st.text_input("Let's the movie which you have in mind."," ")
         tick2=st.button("GENERATE")
         user_res = user_res.lower()
         ans=st.write(user_res)
@@ -211,7 +211,7 @@ elif options=="recommend":
         #st.write(recommend(string))
 else:
     flag=True
-    st.write("ROBO: My name is Robo. Type 'help' for guidance, 'review' to review a movie and let others know your opinion, 'recommend' so we can recommend you a movie based on your preference :)")
+    st.write("ROBO: My name is Robo! Type 'help' for guidance, 'review' to review a movie and let others know your opinion, 'recommend' so we can recommend you a movie based on your preference :)")
     while(flag==True):
         user_response = st.text_input('')
         bell=st.button("NEXT")
@@ -250,7 +250,7 @@ else:
                 user_res = user_res.lower()
                 ans = st.write(recommend(user_res))          
     elif(user_response=='review'):
-        st.write('Test a custom review message:')
+        st.write('Think of the movie you recently watched and type in your thoughts below :)')
         x=st.text_input('Enter review to be analysed:',key=1)
         tick=st.button("SUBMIT")
         if tick:   
