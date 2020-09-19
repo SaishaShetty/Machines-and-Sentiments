@@ -52,3 +52,5 @@ Here, we have implemented various techniques based on Natural Language Processin
 #
 
 ### The chatbot
+Here, we have made collaborative efforts to integrate the review and the recommender system into one file, along with a set of greetings and casual responses, owing to the performance of the bot, while interacting with the user.
+
