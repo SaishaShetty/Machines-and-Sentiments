@@ -1,5 +1,8 @@
 # Machines-and-Sentiments
 
+![Video](https://user-images.githubusercontent.com/70643852/93669009-6db42f00-faae-11ea-968c-4c2b6fbf9ba0.gif)
+
+
 As the world progresses exponentially in terms of technological advancements, computers are increasingly becoming an essential part of human life. Besides, computers are now capable of working in a manner, similar to the human brain. 
 Our project revolves around one such concept - Sentiment Analysis  
 Yes, machines can now understand human sentiments! 
