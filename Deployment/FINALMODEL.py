@@ -146,11 +146,11 @@ X_train_dtm = vect.transform(X_train)
 X_test_dtm = vect.transform(X_test)
 
 
-st.title("Machine and Sentiments")
+st.title("Machines and Sentiments")
 
 st.write("""
-# Drop a Review or get Recommendations 
-A bot name ROBO will guide you!
+# Let's decide what to watch!!! Or a take on what you've already watched!
+Reviews, Recommendations and a bot to talk to.
 """)
 
 def local_css(file_name):
