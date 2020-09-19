@@ -179,9 +179,9 @@ NB_complete.fit(X_dtm, y)
 options=st.sidebar.selectbox("Select Choice",("Drop a Review","I want Recommendations","Let's talk to ROBO!"))
 st.write(options)
 
-if options=="review":
-    st.write('Test a custom review message:')
-    x=st.text_input('Enter review to be analysed:',key=1)
+if options=="Drop a Review":
+    st.write("Let's recollect the most recent movie you've watched!")
+    x=st.text_input('Great! Now type in your thoughts below:',key=1)
     tick=st.button("SUBMIT")
     if tick:   
         test=[]
@@ -190,7 +190,7 @@ if options=="review":
         predLabel = NB_complete.predict(test_dtm)
         tags = ['Negative','Positive']
         st.write("Prediction:",tags[predLabel[0]])
-elif options=="recommend":
+elif options=="I wanr Recommendations":
     ans = True
     if ans:
         #st.write("ROBO: Please refer to Imdb for the exact movie Name.")
