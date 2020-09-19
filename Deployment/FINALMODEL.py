@@ -176,7 +176,7 @@ X_dtm = trainingVector.transform(X)
 NB_complete = MultinomialNB()
 NB_complete.fit(X_dtm, y)
 
-options=st.sidebar.selectbox("Select Choice",("review","recommend","Guidance from ROBO"))
+options=st.sidebar.selectbox("Select Choice",("Drop a Review","I want Recommendations","Let's talk to ROBO!"))
 st.write(options)
 
 if options=="review":
