@@ -29,7 +29,7 @@ The labeled data set consists of 50,000 IMDB movie reviews, specially selected f
 2. sentiment - Sentiment of the review; 1 for positive reviews and 0 for negative reviews
 3. review - Text of the review
 
-
+#
 In this part, after performing the exploratory data analysis and data preprocessing, we have implemented Naive Bayes and Support Vector Machines, and hence chosen the better of the two.
 
 
