@@ -47,3 +47,5 @@ The names dataset includes 297,705 cast members with personal attributes such as
 
 The title principals dataset includes 835,513 cast members roles in movies with attributes such as IMDb title id, IMDb name id, order of importance in the movie, role, and characters played.
 
+
+Here, we have implemented various techniques based on Natural Language Processing, specifically making use of RAKE(Rapid Automatic Keyword Extraction algorithm) while building the project.
