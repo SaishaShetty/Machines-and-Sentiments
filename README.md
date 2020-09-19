@@ -59,7 +59,7 @@ Here, we have made collaborative efforts to integrate the review and the recomme
 
 
 #
-Lastly, we have made am effort to deploy all the three parts of the project on a web page, using Streamlit. Certain changes were required to be made to the corresponding codes, for the same.
+Lastly, we have made am effort to deploy all the three parts of the project on a web page, using Streamlit. Certain changes were required to be made to the corresponding codes, for the same. Kindly note, for the recommender part in the deployment, we predict only Hindi movies.
 #
 
 
