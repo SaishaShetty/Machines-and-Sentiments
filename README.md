@@ -54,3 +54,12 @@ Here, we have implemented various techniques based on Natural Language Processin
 ### The chatbot
 Here, we have made collaborative efforts to integrate the review and the recommender system into one file, along with a set of greetings and casual responses, owing to the performance of the bot, while interacting with the user.
 
+
+
+
+
+#
+Lastly, we have made am effort to deploy all the three parts of the project on a web page, using Streamlit. Certain changes were required to be made to the corresponding codes, for the same.
+
+
+## THANK YOU!
